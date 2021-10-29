@@ -12,23 +12,17 @@
   </head>
   <body>
 <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
-          <a href="index.html">
-            <img alt="Lights Up Theatre Co." src="index.html"
-            width="150" height="70">
-        </a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
+      </a>
   <!--NavBar Items-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="announcements.html">Announcements</a>
             </li>
@@ -96,38 +90,37 @@
 
 <!--Cards-->
 
-<!--fix card position-->
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-xs-3">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
+
+<!--ANOTHER TEST-->
+    <div class="row">
+      <div class="col-8 col-sm-6">
+        Level 2: .col-8 .col-sm-6
       </div>
-    </div>
-    <div class="col-xs-3">
-      <p>WORDSSSSSSSSSSSSSSSSSSSSSSSSSSS</p>
-    </div>
-    <div class="col-xs-3">
-      <p>WORDSSSSSSSSSSSSSSSSSSSSSSSSSSS</p>
-    </div>
-    <div class="col-xs-3">
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
+      <div class="col-4 col-sm-6">
+        Level 2: .col-4 .col-sm-6
       </div>
     </div>
   </div>
 </div>
+<div class="row">
+  <div class="col-sm-9">
+    Level 1: .col-sm-9
+    <div class="row">
+      <div class="col-8 col-sm-6">
+        Level 2: .col-8 .col-sm-6
+      </div>
+      <div class="col-4 col-sm-6">
+        Level 2: .col-4 .col-sm-6
+      </div>
+    </div>
+  </div>
+</div>
+    
+
 
 
 <!--Footer-->
-  <footer class="text-white text-center text-lg-start bg-primary">
-  <!-- Grid container -->
+<footer class="text-white  text-center text-lg-start footer">
   <div class="container p-4">
     <!--Grid row-->
     <div class="row mt-4">
@@ -161,14 +154,7 @@
 
       <!--Grid column-->
       <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
-
-        <div class="form-outline form-white mb-4">
-          <input type="text" id="formControlLg" class="form-control form-control-lg" />
-          <label class="form-label" for="formControlLg">Search</label>
-        </div>
-
-        <ul class="fa-ul" style="margin-left: 1.65em;">
+      <ul class="fa-ul" style="margin-left: 1.65em;">
           <li class="mb-3">
             <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
           </li>
@@ -222,9 +208,5 @@
 
 </div>
 <!-- End of .container -->
-
-      <script src="https:/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-
   </body>
 </html>
