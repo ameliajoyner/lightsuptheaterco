@@ -41,15 +41,15 @@ body {
 @import url(https://fonts.googleapis.com/css?family=Satisfy);
 
 .quote-container {
-  margin-top: 50px;
   position: relative;
 }
 
 .note {
   color: #333;
   position: relative;
-  width: 340px;
-  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  margin: 2rem;
   padding: 20px;
   font-family: Satisfy;
   font-size: 30px;
