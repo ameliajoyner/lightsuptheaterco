@@ -1,0 +1,19 @@
+.pill-nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  .pill-nav a:hover {
+    background-color:#FFD55E;
+    color: white;
+  }
+  
+  .pill-nav a.active {
+    background-color: #FFD55E;
+    color: white;
+  }
