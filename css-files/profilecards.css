@@ -1,0 +1,70 @@
+/*CSS for Profile Cards*/
+
+.profile-card-5{
+    margin-top:40px;
+    margin-bottom: 20px;
+    width: 35rem;
+  }
+  
+  .profile-card-5 .card-img-block {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+  }
+  .profile-card-5 .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+  }
+  .profile-card-5 h5{
+    color:black;
+    font-weight:600;
+  }
+  
+  .button-three{
+    text-align: center;
+    cursor: pointer;
+    font-size:24px;
+    margin: 180px;
+  }
+  .button-three {
+    position: relative;
+    background-color: #FFD55E;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  .button-three:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+  }
+  
+  .button-three:after {
+    content: "";
+    background: #FFD55E;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  /*end CSS for Profile Cards*/
