@@ -184,6 +184,8 @@ transform: rotate(57.5deg);
   font-weight:600;
 }
 
+/*fancy buttons*/
+
 .button-three{
   text-align: center;
   cursor: pointer;
@@ -231,6 +233,10 @@ transform: rotate(57.5deg);
 
 /*end CSS for Profile Cards*/
 
+.contact-btn {
+  background-color: #FFD55E;
+}
+
 /*CSS for Gallery*/
 .gallery-row {
   margin-top: 1rem;
@@ -243,12 +249,9 @@ transform: rotate(57.5deg);
   margin: 1rem;
 }
 
-.jumbotron-cover-image {
-  position: relative;
-  background: #FFD55E;
-  height: 50%;
-  width: 30rem;
-  background-size: cover;
-  color: black;
-  border-radius: 25px;
-}
+  .jumbotron {
+    background-image: url('https://bit.ly/3D3DnCl');
+    background-size: cover;
+    height: 100%;
+  }
+
