@@ -254,4 +254,15 @@ transform: rotate(57.5deg);
     background-size: cover;
     height: 100%;
   }
+.administrative-jumbotron {
+  background-color:#FFD55E;
+  padding: 1.5rem;
+  border-radius: 25px;
+}
 
+.council-jumbotron {
+  margin-top: 1rem;
+  background-color:#FFD55E;
+  padding: 1.5rem;
+  border-radius: 25px;
+}
