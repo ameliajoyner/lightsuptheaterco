@@ -409,7 +409,10 @@ margin-top: 5px;
 }
 
 /*CSS for Gallery*/
- 
+
+.gallery-title {
+  background-color: #FFD55E;
+}
 
 .wrapper {
   padding: 30px;
