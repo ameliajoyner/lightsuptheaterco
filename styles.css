@@ -411,6 +411,10 @@ margin-top: 5px;
 /*CSS for Gallery*/
 
 .gallery-title {
+    margin-top: 7.9rem;
+    margin-bottom: 0rem;
+    margin-right: 5rem;
+    margin-left: 2rem;
   background-color: #FFD55E;
 }
 

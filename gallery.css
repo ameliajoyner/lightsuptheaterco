@@ -1,12 +1,15 @@
 /*CSS for Gallery*/
-.gallery-row {
-   margin-top: 1rem;
-   margin-bottom: 3rem;
-   margin-right: 2rem;
+.gallery-title {
+   padding-top: 2rem;
+   margin-bottom: 0rem;
+   margin-right: 5rem;
    margin-left: 2rem;
  }
  
  .gallery-jumbotron {
-   margin: 1rem;
+   margin: 8rem;
+ }
+ .gallery-title {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  
