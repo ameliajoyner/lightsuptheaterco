@@ -254,7 +254,6 @@ transform: rotate(57.5deg);
   width: 1200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-gap: 15px;
   margin: 0 auto;
   padding: 30px;
 }
@@ -520,8 +519,41 @@ margin-top: 5px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 780px) {
   .box {
     width: 100%;
+  }
+  .profile {
+    position: relative;
+    margin-left: -20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    width: 250px;
+    height: 350px;
+  }
+  #m1 {
+    width: 200px;
+  }
+  #s1 {
+    width: 275px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .box {
+    width: 100%;
+  }
+  .profile {
+    position: relative;
+    margin-left: -20px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 350px;
+  }
+  #m1 {
+    width: 200px;
+  }
+  #s1 {
+    width: 275px;
   }
 }
