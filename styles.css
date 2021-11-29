@@ -4,6 +4,9 @@
     background-color: #FFD55E;
 }
 
+.announcement-btn {
+
+}
 .card-announcement {
     margin: 1rem;
 }
@@ -517,6 +520,27 @@ margin-top: 5px;
     -1px 1px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*tickets*/
+.ticket-jumbotron {
+  margin-top: 1rem;
+  background-color:#FFD55E;
+  padding: 1.5rem;
+  border-radius: 25px;
+}
+.card {
+  margin: 2rem;
+}
+.ticket-card-body {
+  background-color:#FFD55E;
+  padding: 15px;
+}
+.ticket-btn {
+  margin: 20px;
+}
+.card-title {
+  padding: 10px;
 }
 
 @media only screen and (max-width: 780px) {
