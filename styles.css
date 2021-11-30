@@ -4,12 +4,7 @@
     background-color: #FFD55E;
 }
 
-.announcement-btn {
-
-}
-.card-announcement {
-    margin: 1rem;
-}
+/*NavBar CSS*/
 
 .pill-nav a {
   display: inline-block;
@@ -380,6 +375,9 @@ margin-top: 5px;
 
 /*CSS for announcements*/
 
+.card-announcement {
+  margin: 1rem;
+}
 
 .wrapper {
   padding: 30px;
