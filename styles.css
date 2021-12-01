@@ -491,9 +491,9 @@ margin-top: 5px;
 .news-wrap:hover,
 .memo-wrap:hover,
 .em-wrap:hover {
-  -webkit-box-shadow: 10px 10px 5px -4px rgba(176, 176, 176, 1);
-  -moz-box-shadow: 10px 10px 5px -4px rgba(176, 176, 176, 1);
-  box-shadow: 10px 10px 5px -4px rgba(176, 176, 176, 1);
+  -webkit-box-shadow: 10px 10px 5px -4px #777;
+  -moz-box-shadow: 10px 10px 5px -4px #777;
+  box-shadow: 10px 10px 5px -4px #777;
 
   cursor: pointer;
 
@@ -527,15 +527,21 @@ margin-top: 5px;
   padding: 1.5rem;
   border-radius: 25px;
 }
-.card {
+.card-ticket {
   margin: 2rem;
 }
 .ticket-card-body {
   background-color:#FFD55E;
   padding: 15px;
+  border-radius: 25px;
+  font-size: 18px;
+  box-shadow: #777 10px 10px 5px;
 }
 .ticket-btn {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 13rem;
 }
 .card-title {
   padding: 10px;
