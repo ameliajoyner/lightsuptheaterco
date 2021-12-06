@@ -171,6 +171,10 @@ transform: rotate(57.5deg);
 }
 
 /*end CSS for Pins*/
+/*Sticky Note Button CSS*/
+.sticky-btn {
+  margin-bottom: 40px;
+}
 /*end CSS for Sticky Notes*/
 
 /*CSS for Profile Cards*/
@@ -231,21 +235,16 @@ transform: rotate(57.5deg);
   border-radius: 25px;
 }
 
-.parallax-2 {
-  /* The image used */
+.gallery-parallax {
   background-image: url("img/IMG_9262.JPG");
-
-  /* Set a specific height */
   min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* home page card*/
+/*Index Profile Card*/
 .box{
   width: 1200px;
   display: grid;
@@ -294,12 +293,10 @@ background: #222;
 transition: 0.5s;
 z-index: 1;
 }
-
 .profile:hover .imgBx
 {
   bottom: 80px;
 }
-
 .profile .imgBx img{
     position: absolute;
     top: 0;
@@ -308,7 +305,6 @@ z-index: 1;
     height: 100%;
     object-fit: cover;
 }
-
 .profile .details{
     position: absolute;
     left: 10px;
@@ -317,7 +313,6 @@ z-index: 1;
     height: 60px;
     text-align: center;
 }
-
 .profile .details h2{
  margin: 0;
  padding: 0;
@@ -326,72 +321,54 @@ z-index: 1;
  color: #777;
  text-transform: uppercase;
 } 
-
 .profile .details h2 span{
 font-weight: 500;
 font-size: 16px;
 color: #f38695;
 display: block;
 margin-top: 5px;
- } 
-
-/*Css for profile button*/
+}
 .profile-button {
   text-decoration: none;
   color: black;
 }
 
-/*CSS for Parallax*/
-.parallax-1 {
-  /* The image used */
+/*CSS for Parallaxes*/
+
+.index-parallax-2 {
   background-image: url("img/IMG_9282.JPG");
-
-  /* Set a specific height */
   min-height: 500px; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.parallax {
-  /* The image used */
+.index-parallax-1 {
   background-image: url("img/IMG_9408.JPG");
-
-  /* Set a specific height */
   min-height: 650px; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(px)
 }
 
-/*CSS for announcements*/
+/*Announcement Board*/
 
 .card-announcement {
   margin: 1rem;
 }
-
 .wrapper {
   padding: 30px;
 }
-
 .announcements-box {
   border: 25px solid grey;
   width: 100%;
   background: #e8ca95;
   -webkit-box-shadow: 10px 10px 5px -4px rgba(176, 176, 176, 1);
   -moz-box-shadow: 10px 10px 5px -4px rgba(176, 176, 176, 1);
-  box-shadow: 10px 10px 5px -4px rgba(176, 176, 176, 1);
-
-   
+  box-shadow: 10px 10px 5px -4px rgba(176, 176, 176, 1); 
 }
-
 .an-wrap {
   background: #FFD55E;
   padding: 18px;
@@ -400,7 +377,6 @@ margin-top: 5px;
   -webkit-transform: rotate(-3deg);
   -moz-transform: rotate(-3deg);
 }
-
 .em-wrap {
   padding: 18px;
   background: black;
@@ -410,7 +386,6 @@ margin-top: 5px;
   -webkit-transform: rotate(3deg);
   -moz-transform: rotate(3deg);
 }
-
 .memo-wrap {
   padding: 18px;
   background: black;
@@ -420,45 +395,35 @@ margin-top: 5px;
   -webkit-transform: rotate(5deg);
   -moz-transform: rotate(5deg);
 }
-
 .title-an {
   padding-bottom: 1px;
 }
-
 .date-an {
   font-size: 11px;
   padding-bottom: 5px;
 }
-
 .cont-an {
   font-size: 12px;
 }
-
- 
-
 .news-wrap {
   font-size: 12px;
   background: #FFD55E;
   padding: 23px;
 }
-
 .new-img {
   width: 84px;
   float: left;
   height: auto;
   margin-right: 11px;
 }
-
 .news-title {
   font-size: 18px;
   padding-bottom: 7px;
 }
-
 .news-sub-title {
   font-size: 11px;
   font-style: italic;
 }
-
 .marker-icon {
   width: 16px;
   height: 20px;
@@ -466,25 +431,20 @@ margin-top: 5px;
   top: 0px;
   left: 26px;
 }
-
 .title-em {
   font-size: 18px;
 }
-
 .from-em {
   margin-top: 3px;
 }
-
 .date-em {
   margin-bottom: 3px;
 }
-
 .an-img {
   width: 100%;
   margin-right: 4px;
   height: auto;
 }
-
 .an-wrap:hover,
 .news-wrap:hover,
 .memo-wrap:hover,
@@ -500,7 +460,6 @@ margin-top: 5px;
   -moz-transition: transform 0.2s ease-in-out;
   -ms-transition: transform 0.2s ease-in-out;
 }
-
 .an-wrap:before {
   content: "";
   position: absolute;
@@ -518,7 +477,8 @@ margin-top: 5px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-/*tickets*/
+/*Ticket Page CSS*/
+
 .ticket-jumbotron {
   margin-top: 1rem;
   background-color:#FFD55E;
@@ -544,6 +504,8 @@ margin-top: 5px;
 .card-title {
   padding: 10px;
 }
+
+/*Media CSS*/
 
 @media only screen and (max-width: 780px) {
   .box {
