@@ -26,7 +26,7 @@
 .pill-nav a.active {
   border-color: #FFD55E;
   background-color: #FFD55E;
-  color: white;
+  color: black;
 }
 
 /*CSS for Body*/
@@ -36,8 +36,6 @@ body {
 }
 
 /* CSS for Sticky Notes*/
-
-@import url(https://fonts.googleapis.com/css?family=Satisfy);
 
 .quote-container {
   position: relative;
