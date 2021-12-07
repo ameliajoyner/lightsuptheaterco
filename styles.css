@@ -350,11 +350,6 @@ margin-top: 5px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.index-parallax-1 img {
-  margin-top: 15rem;
-  margin-bottom: 15rem;
-  margin-left: 43rem;
-}
 /*Announcement Board*/
 
 .card-announcement {
@@ -422,6 +417,13 @@ margin-top: 5px;
   background: #FFD55E;
   padding: 23px;
 }
+.news-wrap-1 {
+  font-size: 12px;
+  background: #FFD55E;
+  padding: 23px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .new-img {
   width: 84px;
   float: left;
@@ -435,6 +437,9 @@ margin-top: 5px;
 .news-sub-title {
   font-size: 11px;
   font-style: italic;
+}
+.news-sub-title-1 {
+  font-size: 14px;
 }
 .marker-icon {
   width: 16px;
@@ -518,7 +523,7 @@ margin-top: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
-  margin-left: 20rem;
+  margin-left: 15rem;
 }
 .card-title {
   padding: 10px;
@@ -541,8 +546,16 @@ margin-top: 5px;
   #m1 {
     width: 200px;
   }
+  #m2-btn {
+    margin-left: 4.2rem;
+  }
   #s1 {
     width: 275px;
+    font-size: 27px;
+  }
+  #pi1 {
+    margin-left: 4rem;
+    width: 680px;
   }
 }
 
@@ -558,11 +571,25 @@ margin-top: 5px;
     height: 350px;
   }
   #m1 {
+    margin-left: 1rem;
+    width: 200px;
+  }
+  #m2-btn {
+    margin-left: 3rem;
+  }
+  #m2 {
+    margin-left: 5rem;
     width: 200px;
   }
   #s1 {
     width: 275px;
   }
+
+}
+#pi1 {
+  margin-top: 13rem;
+  margin-left: 5rem;
+  width: 240px;
 }
 
 
