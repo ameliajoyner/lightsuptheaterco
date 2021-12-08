@@ -342,6 +342,10 @@ margin-top: 5px;
   background-size: cover;
 }
 
+.index-logo {
+  margin-left: 11rem;
+}
+
 .index-parallax-1 {
   background-image: url("img/IMG_94082.JPG");
   min-height: 650px; 
@@ -350,6 +354,7 @@ margin-top: 5px;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /*Announcement Board*/
 
 .card-announcement {
@@ -529,69 +534,10 @@ margin-top: 5px;
   padding: 10px;
 }
 
-/*Media CSS*/
-
-@media only screen and (max-width: 780px) {
-  .box {
-    width: 100%;
-  }
-  .profile {
-    position: relative;
-    margin-left: -20px;
-    margin-bottom: 50px;
-    margin-top: 40px;
-    width: 250px;
-    height: 350px;
-  }
-  #m1 {
-    width: 200px;
-  }
-  #m2-btn {
-    margin-left: 4.2rem;
-  }
-  #s1 {
-    width: 275px;
-    font-size: 27px;
-  }
-  #pi1 {
-    margin-left: 4rem;
-    width: 680px;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  .box {
-    width: 100%;
-  }
-  .profile {
-    position: relative;
-    margin-left: -20px;
-    margin-bottom: 50px;
-    width: 250px;
-    height: 350px;
-  }
-  #m1 {
-    margin-left: 1rem;
-    width: 200px;
-  }
-  #m2-btn {
-    margin-left: 3rem;
-  }
-  #m2 {
-    margin-left: 5rem;
-    width: 200px;
-  }
-  #s1 {
-    width: 275px;
-  }
-
-}
 #pi1 {
   margin-top: 13rem;
-  margin-left: 5rem;
-  width: 240px;
+  margin-left: 26rem;
 }
-
 
 /*Testing*/
 h2 {
@@ -612,4 +558,73 @@ h2 .lead {
 .hoverable:hover {
   transition: 0.5s;
   box-shadow: 10px 10px 5px -4px #777;
+}
+
+/*Media CSS*/
+
+@media only screen and (max-width: 780px) {
+  .box {
+    width: 100%;
+  }
+  .profile {
+    position: relative;
+    margin-left: -20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    width: 250px;
+    height: 350px;
+  }
+  .ticket-btn {
+    margin-left: 5rem;
+  }
+  #m1 {
+    width: 200px;
+  }
+  #m2-btn {
+    margin-left: 4.2rem;
+  }
+  #s1 {
+    width: 275px;
+    font-size: 27px;
+  }
+  #pi1 {
+    margin-top: 8rem;
+    margin-left: 3rem;
+    width: 680px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .box {
+    width: 100%;
+  }
+  .profile {
+    position: relative;
+    margin-left: -20px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 350px;
+  }
+  .ticket-btn {
+    margin-left: 3.5rem;
+  }
+  #m1 {
+    margin-left: 1.5rem;
+    width: 200px;
+  }
+  #m2-btn {
+    margin-left: 3rem;
+  }
+  #m2 {
+    margin-left: 1.7rem;
+    width: 300px;
+  }
+  #s1 {
+    width: 275px;
+  }
+  #pi1 {
+    margin-top: 13rem;
+    margin-left: 5rem;
+    width: 240px;
+  }
 }
