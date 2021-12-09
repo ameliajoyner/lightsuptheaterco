@@ -348,7 +348,7 @@ margin-top: 5px;
 
 .index-parallax-1 {
   background-image: url("img/IMG_94082.JPG");
-  min-height: 650px; 
+  min-height: 500px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -577,6 +577,12 @@ h2 .lead {
   .ticket-btn {
     margin-left: 5rem;
   }
+  .index-parallax-1 {
+    width: 768px;
+  }
+  .index-parallax-2 {
+    width: 768px;
+  }
   #m1 {
     width: 200px;
   }
@@ -607,6 +613,12 @@ h2 .lead {
   }
   .ticket-btn {
     margin-left: 3.5rem;
+  }
+  .index-parallax-1 {
+    width: 375px;
+  }
+  .index-parallax-2 {
+    width: 375px;
   }
   #m1 {
     margin-left: 1.5rem;
