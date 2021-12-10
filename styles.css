@@ -81,8 +81,6 @@ body {
   text-align: right;
 }
 
-/*Variations of Sticky Notes*/
-
 .yellow-1 {
   background: #FFD55E;
   -webkit-transform: rotate(2deg);
@@ -90,30 +88,8 @@ body {
   -o-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
-  margin: 3rem;
+  margin: 7rem;
 }
-
-.yellow-2 {
-  background: #FFD55E;
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-  -o-transform: rotate(2deg);
-  -ms-transform: rotate(2deg);
-  transform: rotate(-3deg);
-  margin: 3rem;
-}
-
-.yellow-3 {
-  background: #FFD55E;
-  -webkit-transform: rotate(2deg);
-  -moz-transform: rotate(2deg);
-  -o-transform: rotate(2deg);
-  -ms-transform: rotate(2deg);
-  transform: rotate(0deg);
-  margin: 3rem;
-}
-
-/*end Variation*/
 
 /*CSS for Pins*/
 
@@ -123,10 +99,10 @@ body {
   height: 32px;
   width: 2px;
   position: absolute;
-  left: 40%;
+  left: 45%;
   top: -16px;
   z-index: 1;
-  margin: 3rem;
+  margin: 1rem;
 }
 
 .pin:after {
@@ -247,13 +223,14 @@ transform: rotate(57.5deg);
   width: 1200px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  margin: 0 auto;
+  margin-left: -17.25rem;
+  margin-top: 5rem;
   padding: 30px;
 }
 .profile {
   position: relative;
-  width: 300px;
-  height: 350px;
+  width: 350px;
+  height: 400px;
   background: #fff;
   margin: 0 auto;
   border-radius: 4px;
@@ -348,7 +325,7 @@ margin-top: 5px;
 
 .index-parallax-1 {
   background-image: url("img/IMG_94082.jpg");
-  min-height: 500px; 
+  min-height: 650px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -592,6 +569,12 @@ h2 .lead {
   #s1 {
     width: 275px;
     font-size: 27px;
+    margin-left: 15px;
+  }
+  #t1 {
+    width: 300px;
+    font-size: 27px;
+    margin-left: 16.5rem;
   }
   #pi1 {
     margin-top: 8rem;
@@ -620,6 +603,9 @@ h2 .lead {
   .index-parallax-2 {
     width: 375px;
   }
+  #it {
+    padding: 10px 2em;
+  }
   #m1 {
     margin-left: 1.5rem;
     width: 200px;
@@ -633,6 +619,13 @@ h2 .lead {
   }
   #s1 {
     width: 275px;
+    font-size: 27px;
+    margin-left: 15px;
+  }
+  #t1 {
+    width: 275px;
+    font-size: 27px;
+    margin-top: -3rem;
   }
   #pi1 {
     margin-top: 13rem;
